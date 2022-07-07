@@ -1,0 +1,226 @@
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  background:  #0e0d26;
+}
+nav {
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  margin-top: 1vmax;
+  padding-top: 1vmax;
+}
+li:hover {
+  background-color: rgba(115, 119, 123, 0.555);
+  transform: scale(1.2);
+}
+.encabezado {
+  display: inline-flex;
+  background-image: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 7.5vmax;
+}
+.logo {
+  float: left;
+  height: 5.5vmax;
+  width: 5.5vmax;
+  padding: 2vmax;
+  
+}
+.logo2{
+  float: left;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 2vmax;
+}
+
+.logo2:hover{
+  transform: scale(1.2)
+}
+.encabezado h1 {
+  width: 80%;
+  margin: auto;
+  color: hsl(29, 70%, 61%);
+  font-size: 8vmax;
+  text-align: center;
+  padding: 0px;
+  font-family: 'Zen Loop', cursive;  
+}
+.logo2:hover.fondo-navegacion{
+  display: inline;
+}
+
+
+.fondo-navegacion {
+  position: relative;
+  top: 11vmax;
+  background-image: url(../images/fondo1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+  animation-name: aparecer;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-duration: 1.5s;
+  display: none;
+  
+
+}
+.navegacion {  
+  position: relative;
+  color: rgb(115, 119, 123);  
+  width:40vmax;
+  height: 24vmax;
+  margin: auto;
+  left: 0;
+  background-image: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+  animation-name: aparecer;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-duration: 1s;    
+}
+@keyframes aparecer {
+  0% {
+    background-size: 0%;
+    top: -300vmax;
+  }
+  90% {
+    background-size: 100%;
+    top: 0vmax
+  }
+}
+.nav-principal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; 
+  margin: auto;
+  padding-top: 1vmax;
+  width: 27vmax;
+  list-style: none;
+}
+.nav-principal li{
+  text-align: center;
+  border: solid hsl(29, 70%, 61%) 2px;
+  margin: 1vmax;
+  padding: 0.7vmax 0.5vmax;
+  background-color: #0e0d26;
+  font-family: 'Zen Loop', cursive;
+  font-weight: bold;
+  font-size: 1.5vmax;   
+}
+
+.navegacion2 {
+  z-index: 99;
+  position: fixed;
+  height: 5vmax;
+  top: 5.3vmax;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+  
+}
+.nave {
+  z-index: 101;
+  display: inline-block;
+  width: 3vmax;
+  height: 3vmax;
+  text-align: center;
+  border-radius: 50%; 
+  margin: 10px;
+  border: solid 0.1px #0e0d2686;
+}
+.nave:hover {
+  border: solid 0.1px hsl(29, 70%, 61%);
+  transform: scale(1.2)
+}
+
+[src*=png]{
+  width: 2.8vmax;
+  height: 2.8vmax;
+}
+
+.corazon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 24px;
+  height: 24px;
+  background-color: hsl(29, 70%, 61%);
+  transform: rotate(-45deg);
+  animation-name: beat;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.corazon::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: hsl(29, 70%, 61%);
+  top: 0;
+  left: 12px;
+  border-radius: 50%;
+}
+.corazon::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: hsl(29, 70%, 61%);
+  top: -12px;
+  left: 0px;
+  border-radius: 50%;
+}
+@keyframes beat {
+  0% {
+    transform: scale(1.2) rotate(-45deg);
+  }
+}.cuerpo {
+  color: rgb(241, 238, 233);
+  margin-top: 15vmax;
+ 
+
+}
+.articulos {
+  display: flex;
+}
+.geografia {
+  width: 25%;
+  flex-direction: row;
+}
+.religion {
+  width: 25%;
+  flex-direction: row;
+}
+.politica {
+  width: 25%;
+  flex-direction: row;
+}
+.heraldica {
+  width: 25%;
+  flex-direction: row;
+}

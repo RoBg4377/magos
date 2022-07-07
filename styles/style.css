@@ -1,0 +1,234 @@
+
+* {
+margin: 0;
+padding: 0;
+--fondo2:radial-gradient(circle at 50% 50%, #ffbaff 0, #f7acff 25%, #d59df2 50%, #b58eda 75%, #997fc4 100%);
+}
+
+header, 
+nav, 
+section, 
+footer {
+display: block;
+}
+
+#logo {
+  width: 200px;
+  float: left;
+  border-radius: 50%;
+  background-image: var(--fondo2)
+}
+
+body {
+  font-size: 20px; 
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  background: black;
+  
+}
+
+.indice {
+  font-family: 'Cairo', sans-serif;
+  background: var(--fondo2);
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.agrupar{
+  background: #fffbc8;
+  width: 960px;
+  margin: 30px auto;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+header {
+  display: inline-block;
+  margin: 20px;
+  width: 960px;
+}
+header h1 {
+  color: #A8518A;
+  float: right;
+  background: var(--fondo2);
+  font-family: 'Lobster', cursive;
+  font-size: 65px;
+  padding: 50px 30px;
+  text-shadow: 3px 3px 1px rgb(175, 172, 172);
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  padding: 10px;
+  text-decoration: underline;
+  color: #A8518A;
+  
+  
+}
+
+.menu {
+  padding: 20 px 15px;
+  text-align: left;
+}
+
+.menu li {
+  margin: 20px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+
+.titulo {
+  background: #e3c1fc;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 3px 3px 1px rgb(175, 172, 172);
+  color: #A8518A;
+  border-radius: 20px;
+}
+.circulo {
+  border-radius: 50%;
+}
+
+#poesia {
+  text-align: center;
+  font-family: 'Water Brush', cursive;
+  font-size: 30px;
+  background-image: url(https://img.freepik.com/foto-gratis/antiguo-fondo-textura-papel-pergamino-papel-pintado-vintage_118047-9139.jpg?w=740);
+  background-color: #fbf7d67a;
+}
+
+#valioshke {
+  margin: auto;
+  width: 570px;
+}
+
+.seccion {
+  margin: 20px;
+  width: 600px;
+  float: left;
+}
+
+article {
+  background: #fbf7d6d3;
+  border: 1px solid #b349ff;
+  padding: 20px 5px;
+  margin: 20px 0px;
+  border-radius: 20px;
+}
+
+p {
+  background: #e3c1fc;
+  padding: 15px;
+  text-align: justify;
+  font-family: 'Macondo', cursive;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px
+  
+}
+.poesias {
+  margin: 20px 0;
+  width: 320px;
+  text-align: center;
+  float: left;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 3px 3px 1px rgb(175, 172, 172);
+  background: #e3c1fc;
+  padding: 10px;
+  border-radius: 15px;
+  color: #A8518A;
+}
+
+.poesias li { 
+  list-style: none;
+  padding: 8px;
+}
+
+.seccion img {
+  width: 400px;
+  border: 10px #b349ff groove;
+  background: #e3c1fc;
+}
+
+.pie {
+  clear: both;
+  background: #e3c1fc;
+  border-radius: 10px;
+}
+
+.animales {
+  margin: auto;
+  width: 700px; 
+}
+
+form {
+  background: #fbf7d6d3;
+}
+
+form h4 {
+  color: #A8518A;
+  font-family: 'Lobster', cursive;
+  padding: 5px;
+  margin: 10px;
+  background: #e3c1fc;
+  border-radius: 10px;
+}
+
+.escuelas-de-magia {
+  text-align: left;
+  margin: auto;
+  width: 550px;
+  
+}
+
+.escuelas-de-magia input {
+  margin-bottom: 20px;
+}
+
+
+.facciones {
+  text-align: center;
+  padding: 10px;
+}
+
+.facciones label {
+  padding-inline: 20px;
+}
+
+button {
+  width: 100px;
+  margin-bottom: 50px;
+}
+.seccionB {
+  width: 900px;
+  margin: auto;
+}
+.seccionB img {
+  width: 500px;
+  border: 10px #b349ff groove;
+
+}
+.espacio-parrafos {
+  padding: 20px;
+}
+#spam{
+  display: flex;
+}
